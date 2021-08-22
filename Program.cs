@@ -22,7 +22,7 @@ namespace Chess
             PrintSeparator();
 
             // Calculate all legal moves for the piece.
-            myBoard.MarkLegalMoves(currentCell, "Knight");
+            myBoard.MarkLegalMoves(currentCell, "Queen");
 
             // Print the chess board.
             PrintBoard(myBoard);
